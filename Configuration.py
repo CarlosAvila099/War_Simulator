@@ -2,4 +2,4 @@ LUCK = 10                       # The probability that luck boost will be activa
 BOOST = 1.3                     # The luck multiplier.
 
 
-MONTHS = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+MONTHS = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365]
