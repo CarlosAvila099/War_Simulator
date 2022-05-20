@@ -1,4 +1,5 @@
-from Configuration import *
+import math
+from configuration import *
 
 def get_date(days):
     years = int(days/365)
@@ -9,5 +10,6 @@ def get_date(days):
             return(str(days) + "/" + str(i) + "/" + str(years))
     return "0"
 
-date = get_date(9588)
-print(date)
+def std(array):
+    mean = sum(array) / len(array)
+    return math.sqrt( (sum(abs(a - mean)**2 for a in array)) / len(array) )
