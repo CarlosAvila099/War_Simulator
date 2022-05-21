@@ -94,7 +94,7 @@ class Continent:
             self.government_time = 0
         else:
             self.government_time += 1
-            if self.government_time > (GOVERNMENT_TIME * 365):
+            if self.government_time >= (GOVERNMENT_TIME * 365):
                 self.government_time = 0
                 self.world.govenment_changes.append(Government_Change(self, "Government Election"))
 
@@ -130,7 +130,7 @@ class Continent:
 
     def peace_growth(self): # Finished
         self.peace_time += 1
-        if self.peace_time == (PEACE_TIME * 365):
+        if self.peace_time >= (PEACE_TIME * 365):
             self.peace_time = 0
             self.literacy += std([c.literacy for c in self.world.continents]) / 10
             self.income += std([c.income for c in self.world.continents]) / 8
