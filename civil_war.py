@@ -128,7 +128,7 @@ class Civil_War:
         """
         for land in self.insurgent_land:
             neihboring_land = land.neighbors()
-            for neighbor in neihboring_land: 
+            for neighbor in neihboring_land:
                 if neighbor not in self.insurgent_land and neighbor.ruler == land.ruler:
                     self.add_battle(Inner_Battle(neighbor, self.days))
     
@@ -155,4 +155,4 @@ class Civil_War:
         battles = ""
         for battle in self.battles:
             battles += f"{battle}\n"
-        return f"Civil War of {self.continent.name} in the day {self.starting_date}:\nWinner: {self.war_win}\nBattles: {battles}"
+        return f"Civil War of {self.continent.name} in the day {self.starting_date}:\nWinner: {self.war_win}\nBattles:\n{battles}"
