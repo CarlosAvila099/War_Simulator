@@ -8,5 +8,6 @@ INCOME_THRESHOLD = .5           # The threshold that create an income trigger fo
 INSURGENCY_SUPPORT = 0.2        # An extra to the government rate when the insurgents win.
 DURATION = 1000                 # The days that the simulation will run.
 CASUALTY_STOP = 40              # The percentaje of casualties needed to completely stop a Civil War.
+STALE_TIME = 15                 # The number of days needed for a stale state to end a conflict.
 
 MONTHS = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365]
