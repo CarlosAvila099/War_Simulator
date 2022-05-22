@@ -10,6 +10,14 @@ def get_date(days):
             return(str(days) + "/" + str(i) + "/" + str(years))
     return "0"
 
-def std(array):
+def std(array: list):
+    """Calculates the standard deviation of a list.
+
+    Args:
+        array (list): The list containing the values needed for the standard deviation.
+
+    Returns:
+        float: The standard deviation of the list.
+    """
     mean = sum(array) / len(array)
     return math.sqrt( (sum(abs(a - mean)**2 for a in array)) / len(array) )
