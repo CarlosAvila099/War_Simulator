@@ -77,6 +77,8 @@ class Civil_War:
         self.insurgent_land = []
         self.state = 0 # 0 - Random Walk, 1 - Inner Battles, 2 - End
 
+        self.continue_war()
+
     def casualties(self):
         """Calculates the current casualties of the Civil War.
 
@@ -102,9 +104,9 @@ class Civil_War:
             battle (Inner_Battle): The battle that will be taken into account to update statistics.
         """
         self.battles.append(battle)
-        if battle.winner == "Insurgents": 
+        if battle.winner == "Insurgents":
+            if battle.land not in self.insurgent_land: self.insurgent_land.append(battle.land)
             self.insurgent_wins += 1
-            self.insurgent_land.append(battle.land)
         elif battle.winner == "Government":
             if battle.land in self.insurgent_land: self.insurgent_land.remove(battle.land)
             self.government_wins += 1
@@ -126,11 +128,14 @@ class Civil_War:
     def neighbor_raising(self):
         """Makes a rising in all the neighboring lands of a insurgent land.
         """
+        visited = []
         for land in self.insurgent_land:
+            self.add_battle(Inner_Battle(land, self.days))
             neihboring_land = land.neighbors()
             for neighbor in neihboring_land:
-                if neighbor not in self.insurgent_land and neighbor.ruler == land.ruler:
+                if neighbor not in self.insurgent_land and neighbor not in visited and neighbor.ruler == land.ruler:
                     self.add_battle(Inner_Battle(neighbor, self.days))
+                    visited.append(neighbor)
     
     def check_end(self):
         """Determines if the Civil War has ended.
