@@ -100,7 +100,7 @@ class War:
         self.end = False
         self.end_reason = ""
 
-        self.__continue_war()
+        self.continue_war()
 
     def casualties(self, continent):
         """Calculates the casualties of the Continent given.
@@ -117,7 +117,7 @@ class War:
             elif battle.loser == continent: casualties += battle.casualties_lose
         return casualties
 
-    def __continue_war(self):
+    def continue_war(self):
         """Advances the War by a day and checks if the end conditions are met.
         """
         if not self.end:

@@ -1,6 +1,6 @@
 import math
 import random
-from configuration import CASUALTY_STOP
+from configuration import CASUALTY_STOP, SOCIAL_SUPPORT
 
 class Inner_Battle:
     def __init__(self, land, date: int):
@@ -35,7 +35,7 @@ class Inner_Battle:
     def __outcome(self):
         """Defines the outcome of the Inner Battle.
         """
-        self.insurgents = self.land.cwi(2)
+        self.insurgents = self.land.cwi(SOCIAL_SUPPORT)
         self.government = self.land.cwi()
         if self.insurgents > self.government:
             self.winner = "Insurgents"
@@ -79,7 +79,7 @@ class Civil_War:
         self.state = 0 # 0 - Random Walk, 1 - Inner Battles, 2 - End
         self.end_reason = ""
 
-        self.__continue_war()
+        self.continue_war()
 
     def casualties(self):
         """Calculates the current casualties of the Civil War.
@@ -89,7 +89,7 @@ class Civil_War:
         """
         return sum(battle.casualties for battle in self.battles)
 
-    def __continue_war(self):
+    def continue_war(self):
         """Advances the Civil War by a day and checks if the end conditions are met.
         """
         if not self.state == 2:
