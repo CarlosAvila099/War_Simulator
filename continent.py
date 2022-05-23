@@ -25,7 +25,11 @@ class World:
 
     def __start_world(self):
         """Creates the World and the initializes Continents.
+
+        Args:
+            random (bool): A flag to determine if Continent creation is random.
         """
+
         for continent in self.continents:
             continent.world = self
             continent.sort_lands()
@@ -48,14 +52,28 @@ class World:
                 for land in continent.land: land.grow()
             continent.advance()
 
+    def get_array(self):
+        """Returns the world as an int array to paint in matplotlib.
+
+        Returns:
+            numpy.ndarray: An array containing the color values of the Continents.
+        """
+        temp_array = np.zeros((self.size, self.size), dtype=int)
+        for continent in self.continents:
+            for land in continent.land:
+                temp_array[land.x, land.y] = continent.color
+        return temp_array
+
 class Continent:
-    def __init__(self, name: str, x: int, y: int, territory: float, population: int, growth: float, income: float, literacy: float, military_spend_gdp: float, government_rate: float):
+    def __init__(self, name: str, x: int, y: int, color: int, territory: float, population: int, growth: float, income: float, literacy: float, military_spend_gdp: float, government_rate: float):
         """Represents a Continent of the World.
 
         Args:
             name (str): The name of the Continent.
             x (int): The starting x position of the Continent.
-            y (int): The starting x position of the Continent.
+            y (int): The starting y position of the Continent.
+            color (int): A value representing the color of the Continent.
+            population (int): The starting population of the Continent.
             territory (float): The starting territory of the Continent in km^2.
             population (int): The starting population of the Continent.
             growth (float): The growth rate of the Continent. Percentage.
@@ -63,6 +81,8 @@ class Continent:
             literacy (float): The literacy rate of the Continent. Percentage.
             military_spend_gdp (float): The percentage of military spending of a Continent depending on its GDP.
             government_rate (float): A value to determine the strength of the government in a Continent.
+            x (int, optional): The starting x position of the Continent. Defaults to -1, meaning random.
+            y (int, optional): The starting y position of the Continent. Defaults to -1, meaning random.
         """
         self.name = name
         self.growth = growth
@@ -71,8 +91,10 @@ class Continent:
         self.military_spend = military_spend_gdp
         self.government_rate = government_rate
         self.world = None
-        self.__x = x
+        self.color = None
+        self.__x = x 
         self.__y = y
+        self.color = color
 
         self.borders = []
         self.land = []
@@ -86,6 +108,9 @@ class Continent:
 
         self.__peace_time = 0
         self.__government_time = 0
+
+        self.__income_war = None
+        self.__population_war = None
 
     ### Information -------------------------------------------------
     def territory(self):
@@ -254,11 +279,19 @@ class Continent:
         """
         if new:
             if not self.current_civil_war:
-                self.current_civil_war = Civil_War(self, reason)
-                self.world.civil_wars.append(self.current_civil_war)
+                if (reason == "Income" and not self.__income_war) or (reason == "Population" and not self.__population_war):
+                    self.current_civil_war = Civil_War(self, reason)
+                    self.world.civil_wars.append(self.current_civil_war)
+
+                    if reason == "Income": self.__income_war = self.current_civil_war
+                    elif reason == "Population": self.__population_war = self.current_civil_war
         elif self.current_civil_war:
             self.current_civil_war.continue_war()
-            if self.current_civil_war.state == 2: self.current_civil_war = None
+            if self.current_civil_war.state == 2:
+                if self.__income_war == self.current_civil_war: self.__income_war = None
+                elif self.__population_war == self.current_civil_war: self.__population_war = None
+
+                self.current_civil_war = None
 
     ### War -------------------------------------------------------------------
     def war(self, new=False, continent=None, reason=""):
@@ -274,15 +307,20 @@ class Continent:
             for war in self.current_wars:
                 if continent in [war.continent1, war.continent2]: exists = True
             
-            if not exists:
+            if not exists and ((reason == "Income" and not self.__income_war) or (reason == "Population" and not self.__population_war)):
                 temp_war = War(self, continent, reason)
                 continent.current_wars.append(temp_war)
                 self.current_wars.append(temp_war)
                 self.world.wars.append(temp_war)
+
+                if reason == "Income": self.__income_war = temp_war
+                elif reason == "Population": self.__population_war = temp_war
         else:
             for war in self.current_wars:
                 war.continue_war()
                 if war.end:
+                    if self.__income_war == war: self.__income_war = None
+                    elif self.__population_war == war: self.__population_war = None
                     if war in self.current_wars: self.current_wars.remove(war)
 
     def add_land(self, land):
@@ -352,8 +390,8 @@ class Continent:
         for neighbor in neighbors:
             if neighbor not in self.borders: self.borders.append(neighbor)
 
-        self.borders.remove(land)
-        self.land.remove(land)
+        if land in self.borders: self.borders.remove(land)
+        if land in self.land: self.land.remove(land)
 
     def annex_continent(self, continent):
         """Annexes the Continent given to the Continent.
@@ -375,11 +413,14 @@ class Continent:
             war.end = True
             war.end_reason = f"Annexation of {continent} by {self}"
         continent.current_wars = []
+
+        for neighbor in continent.neighbors:
+            if neighbor not in self.neighbors: self.neighbors.append(neighbor)
         
         self.world.continents.remove(continent)
         for c in self.world.continents:
             if continent in c.neighbors: c.neighbors.remove(continent)
-            if self not in c.neighbors and not c == self: c.neighbors.append(continent)
+            if self not in c.neighbors and not c == self: c.neighbors.append(self)
 
     ### Extra -----------------------------------------------------------------
     def __repr__(self):
