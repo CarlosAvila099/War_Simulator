@@ -56,7 +56,7 @@ To determine the winner of a conflict, the _Capability of War Index_ (CWI) is ca
 
 As explained before, there can be two types of conflict, _Civil War_ or _War_.
 * **Civil War:** It consists of two states.
-    * ***Random Walk:** In this state, the _Civil War_ has just begun, random lands are selected to see if an insurgent rise is made, this rise is decided by a 50% chance of happening, either it happens or not, that _Land_ is marked as visited and will not try another rising while in _Random Walk_. The _Random Walk_ ends when at least half of the _Lands_ are visited.
+    * **Random Walk:** In this state, the _Civil War_ has just begun, random lands are selected to see if an insurgent rise is made, this rise is decided by a 50% chance of happening, either it happens or not, that _Land_ is marked as visited and will not try another rising while in _Random Walk_. The _Random Walk_ ends when at least half of the _Lands_ are visited.
     If the _Random Walk_ has ended with at least one insurgent victory the _Civil War_ will continue, else it will be stopped.
     * **Insurgent Rise:** In this part, all the neighboring _Lands_ of an insurgent victory, will try an insurgent rise. This process is repeated until one of the following are met:
         * No more insurgent territories, the government has won, nothing changes.
@@ -66,6 +66,10 @@ As explained before, there can be two types of conflict, _Civil War_ or _War_.
     * A _Continent_ has conquered 50% of the _Land_ of the opposing _Continent_, which will result in the _Continent_ annexing the losing _Continent_.
     * A _Continent_ has an income greater than 3 times the standard deviation of the opposing _Continent_, which will cause a complete cease fire in the loser _Continent_ and a new government will be selected.
     * There are STALE_TIME _Battles_ with a tie. Both _Continents_ will have a complete cease fire and select new governments.
+
+Any type of conflict will be ended when:
+* Any of the participating party has a complete cease fire.
+* Any of the participating party is annexed by another _Continent_.
 
 In this part, one problem we encountered was that _Continents_ that started any type of trigger will keep starting it, so we added a flag to check if any _Continent_ had started any type of war, if it had, that _Continent_ coulnd't start a war by the same trigger until the current war ended.
 
