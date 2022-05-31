@@ -1,8 +1,10 @@
 import random
+import copy
 import matplotlib.pyplot as plt
+
 from matplotlib import animation
-from pprint import pprint
-from continent import *
+from continent import World, Continent
+from configuration import DURATION
 
 world = World(50,  [
                     Continent("North America", 10, 5, 120, 24710000, 580000000, 1, 50984.45, 88, 3.4, random.random()),
@@ -14,11 +16,23 @@ world = World(50,  [
                     Continent("Oceania", 36, 35, 210, 8526000, 41000000, 1.4, 46209.11, 66, 2.10, random.random()),
                     ])
 
+history = []
+
 def update_im(i, img, world: World):
+    history.append(copy.deepcopy(world))
     world.advance()
     img.set_array(world.get_array())
 
 fig, ax = plt.subplots()
 img = ax.imshow(world.get_array())
-ani = animation.FuncAnimation(fig, update_im, fargs=(img, world), frames = DURATION)
+ani = animation.FuncAnimation(fig, update_im, fargs=(img, world), frames=DURATION, repeat=False)
 plt.show()
+
+json = "["
+for hist in history:
+    json += "{" + hist.to_json() + "},"
+json = json[:-1] + "]"
+
+file = open("info.json", "w")
+file.write(json)
+file.close()

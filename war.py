@@ -72,6 +72,38 @@ class Battle:
             str: The string representing the Battle.
         """
         return f"Battle between {self.continent1} and {self.continent2}, day {self.starting_date} of War\n{self.continent1} in {self.land1}: {self.land1_cwi}\n{self.continent2} in {self.land2}: {self.land2_cwi}\nWinner: {self.winner} with {self.casualties_win} casualties\nLoser: {self.loser} with {self.casualties_lose} casualties\n"
+    
+    def to_json(self):
+        """Creates a string in JSON format of the Battle.
+
+        Returns:
+            str: The JSON format.
+        """
+        if self.winner: 
+            winner = self.winner.name
+            loser = self.loser.name
+        else:
+            winner = ""
+            loser = ""
+        
+        if self.land_won: land_won = self.land_won.to_json()
+        else: land_won = ""
+
+        json = f'''
+        "starting_date": {self.starting_date},
+        "land1": ''' + "{" + self.land1.to_json() + "}" + f''',
+        "land2": ''' + "{" + self.land2.to_json() + "}" + f''',
+        "continent1": "{self.continent1.name}",
+        "continent2": "{self.continent2.name}",
+        "land1_cwi": {self.land1_cwi},
+        "land2_cwi": {self.land2_cwi},
+        "winner": "{winner}",
+        "loser": "{loser}",
+        "land_won": ''' + "{" + land_won + "}" + f''',
+        "casualties_win": {self.casualties_win},
+        "casualties_lose": {self.casualties_lose}
+        '''
+        return json
 
 class War:
     def __init__(self, continent1, continent2, reason: str):
@@ -189,3 +221,32 @@ class War:
             str: The string representation of a War.
         """
         return f"War between {self.continent1} and {self.continent2} on date {self.starting_date} due to {self.reason}. Ended on day {self.days} of the War, with {self.war_win} as a winner due to {self.end_reason}."
+
+    def to_json(self):
+        """Creates a string in JSON format of the War.
+
+        Returns:
+            str: The JSON format.
+        """
+        json = f'''
+        "continent1": "{self.continent1.name}",
+        "continent2": "{self.continent2.name}",
+        "start_date": {self.starting_date},
+        "reason": "{self.reason}",
+        "war_win": "{self.war_win}",
+        "days": {self.days},
+        "end_reason": "{self.end_reason}",
+        "continent1_win": {self.continent1_wins},
+        "continent2_win": {self.continent2_wins},
+        "ties": {self.ties},
+        "end": "{self.end}",
+        "casualties1": {self.casualties(self.continent1)},
+        "casualties2": {self.casualties(self.continent2)},
+        "battles": [
+        '''
+        for battle in self.battles:
+            json += "{" + battle.to_json() + "},"
+        if self.battles: json = json[:-1]
+        json += '''
+        ]'''
+        return json

@@ -1,4 +1,4 @@
-DURATION = 1000                 # The days that the simulation will run.
+DURATION = 10                 # The days that the simulation will run.
 LAND_SIZE = 100000              # The size of each part of Land.
 GOVERNMENT_TIME = 5             # Number of years required for a Continent to change government rate.
 PEACE_TIME = 10                 # Number of years required for a Continent to grow due to peace.

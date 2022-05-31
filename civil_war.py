@@ -16,7 +16,7 @@ class Inner_Battle:
         self.winner = None
         self.loser = None
         self.insurgents = 0 # CWI of the insurgents
-        self.government = 0 # CWI of the insurgents
+        self.government = 0 # CWI of the government
         self.casualties = 0
 
         self.__outcome()
@@ -54,6 +54,30 @@ class Inner_Battle:
             str: The string representation of the Inner Battle.
         """
         return f"Revolt in {self.land} in the {self.starting_date} day of civil war.\nInsurgents: {self.insurgents}\nGovernment: {self.government}\nWinner: {self.winner}\nLoser: {self.loser}\nCasualties: {self.casualties}\n"
+
+    def to_json(self):
+        """Creates a string in JSON format of the Inner Battle.
+
+        Returns:
+            str: The JSON format.
+        """
+        if self.winner:
+            winner = self.winner
+            loser = self.loser
+        else:
+            winner = ""
+            loser = ""
+
+        json = f'''
+        "starting_date:" {self.starting_date},
+        "land":''' + "{" + self.land.to_json() + "}" + f''',
+        "winner": "{winner}",
+        "loser": "{loser}",
+        "insurgents": {self.insurgents},
+        "government": {self.government},
+        "casualties": {self.casualties}
+        '''
+        return json
 
 class Civil_War:
     def __init__(self, continent, reason: str):
@@ -169,3 +193,33 @@ class Civil_War:
             str: The string representation of a Civil War.
         """
         return f"Civil War of {self.continent} on date {self.starting_date} due to {self.reason}. Ended on day {self.days} of the Civil War, with {self.war_win} as a winner due to {self.end_reason}."
+
+    def to_json(self):
+        """Creates a string in JSON format of the Civil War.
+
+        Returns:
+            str: The JSON format.
+        """
+        json = f'''
+        "continent": "{self.continent.name}",
+        "start_date": {self.starting_date},
+        "reason": "{self.reason}",
+        "war_win": "{self.war_win}",
+        "days": {self.days},
+        "end_reason": "{self.end_reason}"
+        "state": {self.state},
+        "casualties": {self.casualties()},
+        "battles": [
+        '''
+        for battle in self.battles:
+            json += "{" + battle.to_json() + "},"
+        if self.battles: json = json[:-1] + '''
+        ],
+        "insurgent_land": [
+        '''
+        for il in self.__insurgent_land:
+            json += "{" + il.to_json() + "},"
+        if self.__insurgent_land: json = json[:-1]
+        json += '''
+        ]'''
+        return json

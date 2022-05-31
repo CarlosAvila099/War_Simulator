@@ -1,6 +1,5 @@
 import random
 import numpy as np
-import math
 
 from assets import *
 from civil_war import Civil_War
@@ -64,6 +63,48 @@ class World:
                 temp_array[land.x, land.y] = continent.color
         return temp_array
 
+    def __repr__(self):
+        return f"World in day {self.date} with {self.continents} and {self.wars}"
+
+    def to_json(self):
+        """Creates a string in JSON format of the World.
+
+        Returns:
+            str: The JSON format.
+        """
+        json = '''
+            "war": [
+            '''
+        for war in self.wars:
+            json += "{" + war.to_json() + "},"
+        if self.wars: json = json[:-1]
+        json += '''
+        ],
+        "civil_wars": [
+        '''
+        for civil in self.civil_wars:
+            json += "{" + civil.to_json() + "},"
+        if self.civil_wars: json = json[:-1]
+        json += '''
+        ],
+        "government_changes": [
+        '''
+        for gov in self.govenment_changes:
+            json += "{" + gov.to_json() + "},"
+        if self.govenment_changes: json = json[:-1]
+        json += f'''
+        ],
+        "date": {self.date},
+        "continents": [
+        '''
+        for con in self.continents:
+            json += "{" + con.to_json() + "},"
+        if self.continents: json = json[:-1]
+        json += '''
+        ]
+        '''
+        return json
+
 class Continent:
     def __init__(self, name: str, x: int, y: int, color: int, territory: float, population: int, growth: float, income: float, literacy: float, military_spend_gdp: float, government_rate: float):
         """Represents a Continent of the World.
@@ -91,7 +132,6 @@ class Continent:
         self.military_spend = military_spend_gdp
         self.government_rate = government_rate
         self.world = None
-        self.color = None
         self.__x = x 
         self.__y = y
         self.color = color
@@ -431,6 +471,55 @@ class Continent:
         """
         return self.name
 
+    def to_json(self):
+        """Creates a string in JSON format of the Continent.
+
+        Returns:
+            str: The JSON format.
+        """
+        if self.current_civil_war: civil = self.current_civil_war.to_json()
+        else: civil = ""
+
+        json = f'''
+        "name": "{self.name}",
+        "growth": {self.growth},
+        "income": {self.income},
+        "military_spend": {self.military_spend},
+        "government_rate": {self.government_rate},
+        "peace_time": {self.__peace_time},
+        "government_time": {self.__government_time},
+        "land": [
+        '''
+        for land in self.land:
+            json += "{" + land.to_json() + "},"
+        if self.land: json = json[:-1]
+        json += '''
+        ],
+        "borders": [
+        '''
+        for border in self.borders:
+            json += "{" + border.to_json() + "},"
+        if self.borders: json = json[:-1]
+        json += '''
+        ],
+        "neighbors": [
+        '''
+        for neighbor in self.neighbors:
+            json += f'"{neighbor.name}",'
+        if self.neighbors: json = json[:-1]
+        json += '''
+        ],
+        "civil_war": {''' + civil + '''},
+        "current_wars": [
+        '''
+        for war in self.current_wars:
+            json += "{" + war.to_json() + "},"
+        if self.current_wars: json = json[:-1]
+        json += '''
+        ]
+        '''
+        return json
+
 class Land:
     def __init__(self, territory: float, population: float, x: int, y: int, ruler: Continent):
         """Represents a Land of a Continent.
@@ -509,6 +598,19 @@ class Land:
         """
         return f"Land in ({self.x}, {self.y})"
 
+    def to_json(self):
+        """Creates a string in JSON format of the Land.
+
+        Returns:
+            str: The JSON format.
+        """
+        json = f'''
+        "territory": {self.territory},
+        "population": {self.population},
+        "ruler": "{self.ruler.name}"
+        '''
+        return json
+
 class Government_Change:
     def __init__(self, date: int, continent: Continent, reason: str, insurgency_boost=0):
         """Represents a Government Change of a Continent.
@@ -534,3 +636,18 @@ class Government_Change:
             str: The string representation of a Government Change.
         """
         return f"Government change from {self.continent.name} on day {self.date} due to {self.reason}\nPast: {self.past_government}\nNew: {self.new_government}\n"
+
+    def to_json(self):
+        """Creates a string in JSON format of the Government Change.
+
+        Returns:
+            str: The JSON format.
+        """
+        json = f'''
+            "date": {self.date},
+            "continent": "{self.continent.name}",
+            "reason": "{self.reason}",
+            "past": {self.past_government},
+            "new": {self.new_government}
+            '''
+        return json
