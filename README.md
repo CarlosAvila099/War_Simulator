@@ -8,6 +8,8 @@ Python 3.9.7
 * numpy
 * matplotlib
 
+if any library causes an error, run the command _pip install_.
+
 ## Usage
 To run the simulator you only need to download all the files and run **war_simulation.py**, to save the information in a JSON file, close the window contianing the visualization.
 
