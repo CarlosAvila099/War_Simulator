@@ -79,7 +79,7 @@ To keep track of the information, we created a _Government Change_ class, that s
 
 With all that made, we added a function to visualize in a grid all the _Continents_ thorugout the DURATION of the simulation.
 
-# Data Creation
+## Data Creation
 This step was to save the data made by the simulation and pass it to the **Data Visualization** step, to do this we opted to create a JSON file containing all the information the simulation had.
 * First we tried to use the json library python had, it wouldn't work due to object having other objects inside.
 * Then we tried to cast our object as a dict() to order the properties and then use json to give it the right format. It didn't work thantks to some classes containing _numpy.ndarray_, making it impossible to cast.
