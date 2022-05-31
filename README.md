@@ -2,7 +2,7 @@
 Final Project of Simulation Class, a simulator of war between continents.
 
 ## Specification
-Python 3.8
+Python 3.9.7
 
 ## Libraries used
 * numpy
