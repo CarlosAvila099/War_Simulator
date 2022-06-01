@@ -88,5 +88,6 @@ This step was to save the data made by the simulation and pass it to the **Data 
 * First we tried to use the json library python had, it wouldn't work due to object having other objects inside.
 * Then we tried to cast our object as a dict() to order the properties and then use json to give it the right format. It didn't work thantks to some classes containing _numpy.ndarray_, making it impossible to cast.
 * At last, we tried by creating a to_json() function in each of our classes, it was time consuming and tiring, but it worked.
+* Although the information is saved, it takes a lot of space, so we changed it to only saving the grid being shown.
 
 ## Data Visualization
