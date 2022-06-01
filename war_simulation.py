@@ -81,7 +81,7 @@ def update_im(i, img, world: World):
     world.advance()
     img.set_array(world.get_array())
 
-show = True
+show = False
 
 if show:
     history = []
@@ -168,6 +168,6 @@ else:
                 f"\t\tIncome: {continent.income[day]}\n"
             )
     
-    file = open("Story1.txt", "w")
+    file = open("Stories/Story1.txt", "w")
     file.write(text)
     file.close()
