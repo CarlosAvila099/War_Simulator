@@ -1,0 +1,1271 @@
+Story:
+	General:
+		Population: 1116714278.07372
+		Territory: 24714060.0
+		Military: 621145301815.0896
+		Income: 24945771916563.688
+	North America:
+		Population: 84653473.90222222
+		Territory: 3640788.8888888885
+		Military: 31615642947.77901
+		Income: 929871851405.265
+	South America:
+		Population: 536179122.1714984
+		Territory: 23172155.55555555
+		Military: 1462465738672.5261
+		Income: 28788695643159.957
+	Europe:
+		Population: 1676279633.8346014
+		Territory: 34127122.22222223
+		Military: 722341615197.7821
+		Income: 60195134599815.18
+	Africa:
+		Population: 1320089833.3333337
+		Territory: 30272000.0
+		Military: 45762952291.20268
+		Income: 2600167743818.3345
+	Asia:
+		Population: 1314242342.35
+		Territory: 11025088.88888889
+		Military: 64905132892.02685
+		Income: 2403893810815.808
+	South-East Asia:
+		Population: 1297646352.5513093
+		Territory: 25694844.444444444
+		Military: 999374137292.4432
+		Income: 37013856936757.14
+	Oceania:
+		Population: 41001541.29629629
+		Territory: 8526000.0
+		Military: 39787539370.53207
+		Income: 1894644731930.0981
+Day 1:
+	General:
+		Population: 1104553834.3190477
+		Territory: 19494000.0
+		Military: 354802567771.11676
+		Income: 12384482217201.201
+	North America:
+		Population: 540631538.3666667
+		Territory: 23343333.333333332
+		Military: 201910363454.79892
+		Income: 5938540101611.733
+	South America:
+		Population: 422871948.8333333
+		Territory: 18090000.0
+		Military: 1153412565766.8245
+		Income: 22704971767063.473
+	Europe:
+		Population: 748520129.8666667
+		Territory: 11203333.333333334
+		Military: 322551935072.4817
+		Income: 26879327922706.81
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3978853223.1666665
+		Territory: 33183333.333333332
+		Military: 196499525913.7123
+		Income: 7277760219026.384
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 2:
+	General:
+		Population: 1093993220.6571429
+		Territory: 19494000.0
+		Military: 352072763814.24316
+		Income: 12299973543715.62
+	North America:
+		Population: 495185191.1666667
+		Territory: 21298333.333333332
+		Military: 184937457085.76358
+		Income: 5439336973110.691
+	South America:
+		Population: 422739172.5
+		Territory: 18540000.0
+		Military: 1153050409109.8843
+		Income: 22697842699013.473
+	Europe:
+		Population: 747540633.1666666
+		Territory: 11860000.0
+		Military: 322129850824.6761
+		Income: 26844154235389.68
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3951487547.766667
+		Territory: 34121666.666666664
+		Military: 195148045489.37814
+		Income: 7227705388495.486
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 3:
+	General:
+		Population: 1083974282.6809523
+		Territory: 19494000.0
+		Military: 349732579466.43665
+		Income: 12229453915826.543
+	North America:
+		Population: 457218940.43333334
+		Territory: 19671666.666666668
+		Military: 170758152068.25958
+		Income: 5022298590242.928
+	South America:
+		Population: 422541534.2
+		Territory: 19190000.0
+		Military: 1152511336940.8137
+		Income: 22687231042142.0
+	Europe:
+		Population: 747320183.0
+		Territory: 12840000.0
+		Military: 322034854544.6721
+		Income: 26836237878722.684
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3919739321.133333
+		Territory: 34118333.333333336
+		Military: 193580128521.31116
+		Income: 7169634389678.19
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 4:
+	General:
+		Population: 1071836293.1
+		Territory: 19494000.0
+		Military: 346894429650.8581
+		Income: 12142916670824.238
+	North America:
+		Population: 411776346.1333333
+		Territory: 17753333.333333332
+		Military: 153786647299.666
+		Income: 4523136685284.293
+	South America:
+		Population: 422274755.7
+		Territory: 20040000.0
+		Military: 1151783680081.5083
+		Income: 22672907088218.668
+	Europe:
+		Population: 746719543.6333333
+		Territory: 14118333.333333334
+		Military: 321776027317.095
+		Income: 26814668943091.258
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3881083406.233333
+		Territory: 33908333.333333336
+		Military: 191671068667.73724
+		Income: 7098928469175.452
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 5:
+	General:
+		Population: 1058004805.3571428
+		Territory: 19494000.0
+		Military: 343776225345.0794
+		Income: 12052121721664.635
+	North America:
+		Population: 361235289.56666666
+		Territory: 15573333.333333334
+		Military: 134911013200.3395
+		Income: 3967970976480.5713
+	South America:
+		Population: 421934441.2
+		Territory: 21090000.0
+		Military: 1150855448682.6282
+		Income: 22654634816587.17
+	Europe:
+		Population: 747362159.6333333
+		Territory: 15693333.333333334
+		Military: 322052943095.35944
+		Income: 26837745257946.625
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3834501747.1
+		Territory: 33463333.333333332
+		Military: 189370588247.2282
+		Income: 7013725490638.08
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 6:
+	General:
+		Population: 1042317128.6333333
+		Territory: 19494000.0
+		Military: 341396785409.7036
+		Income: 11948136555348.262
+	North America:
+		Population: 251323708.03333333
+		Territory: 10708000.0
+		Military: 93862191960.02948
+		Income: 2760652704706.7485
+	South America:
+		Population: 431003382.4
+		Territory: 22747000.0
+		Military: 1175591614718.5627
+		Income: 23141567218869.355
+	Europe:
+		Population: 747623268.9666667
+		Territory: 17560000.0
+		Military: 322165460203.9469
+		Income: 26847121683662.24
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3825269541.0333333
+		Territory: 34805000.0
+		Military: 188914646795.38602
+		Income: 6996838770199.481
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 7:
+	General:
+		Population: 1034547199.0095237
+		Territory: 19494000.0
+		Military: 391578006432.36835
+		Income: 12812841368588.152
+	North America:
+		Population: 22233203.366666667
+		Territory: 875666.6666666666
+		Military: 8303463364.513377
+		Income: 244219510720.98166
+	South America:
+		Population: 591113408.8
+		Territory: 30184000.0
+		Military: 1612302815034.674
+		Income: 31738244390446.33
+	Europe:
+		Population: 746038837.3666667
+		Territory: 19591666.666666668
+		Military: 321482697699.4021
+		Income: 26790224808283.504
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3841444943.5333333
+		Territory: 35168666.666666664
+		Military: 189713484737.9889
+		Income: 7026425360666.253
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 8:
+	General:
+		Population: 1191937728.3555555
+		Territory: 22743000.0
+		Military: 473668660278.6863
+		Income: 15235389055847.312
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 633647072.0
+		Territory: 32581000.0
+		Military: 1728316331037.1487
+		Income: 34021975020416.316
+	Europe:
+		Population: 742666224.6
+		Territory: 22090000.0
+		Military: 320029373024.8441
+		Income: 26669114418737.016
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3734313073.5333333
+		Territory: 31149000.0
+		Military: 184422673420.125
+		Income: 6830469385930.553
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 9:
+	General:
+		Population: 1172357226.1222222
+		Territory: 22743000.0
+		Military: 490673946602.03986
+		Income: 15491144988508.416
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 675718942.8333334
+		Territory: 35226000.0
+		Military: 1843070276335.1638
+		Income: 36280910951479.62
+	Europe:
+		Population: 729974143.8333334
+		Territory: 24430000.0
+		Military: 314560107673.07104
+		Income: 26213342306089.242
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3587450270.0666666
+		Territory: 26164000.0
+		Military: 177169711414.00433
+		Income: 6561841163481.642
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 10:
+	General:
+		Population: 1126789289.088889
+		Territory: 22743000.0
+		Military: 534746088050.1458
+		Income: 16227044625647.51
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 781987573.0333333
+		Territory: 37020666.666666664
+		Military: 2132925334722.6313
+		Income: 41986719187453.37
+	Europe:
+		Population: 712488054.6333333
+		Territory: 26776666.666666668
+		Military: 307025010508.3298
+		Income: 25585417542360.81
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 3225260106.866667
+		Territory: 22022666.666666668
+		Military: 159282598879.914
+		Income: 5899355514070.89
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 11:
+	General:
+		Population: 1077692118.55
+		Territory: 22743000.0
+		Military: 638020377220.2958
+		Income: 25635504866296.09
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 780175103.0
+		Territory: 37804000.0
+		Military: 2127981697015.5422
+		Income: 41889403484557.93
+	Europe:
+		Population: 2387434151.733333
+		Territory: 38066000.0
+		Military: 1028791978696.5352
+		Income: 85732664891377.95
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 1257543456.5666666
+		Territory: 9950000.0
+		Military: 62105003419.69771
+		Income: 2300185311840.656
+	South-East Asia:
+		Population: 680000000.0
+		Territory: 11840000.0
+		Military: 523697702400.00006
+		Income: 19396211200000.0
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 12:
+	General:
+		Population: 1048397382.4888889
+		Territory: 22743000.0
+		Military: 718171699734.522
+		Income: 28593236523863.395
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 771598414.5333333
+		Territory: 37987333.333333336
+		Military: 2104588184446.5178
+		Income: 41428901268632.24
+	Europe:
+		Population: 2363828148.8333335
+		Territory: 39632666.666666664
+		Military: 1018619691257.7485
+		Income: 84884974271479.05
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 390323633.5
+		Territory: 2698333.3333333335
+		Military: 19276511254.322
+		Income: 713944861271.1849
+	South-East Asia:
+		Population: 1403634098.0666666
+		Territory: 17341666.666666668
+		Military: 1080999929658.5437
+		Income: 40037034431797.91
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 13:
+	General:
+		Population: 1239752228.8266666
+		Territory: 27291600.0
+		Military: 932587848678.443
+		Income: 36145562730165.18
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 837671375.5333333
+		Territory: 36884000.0
+		Military: 2284806767601.717
+		Income: 44976511173262.13
+	Europe:
+		Population: 2323116551.366667
+		Territory: 41416000.0
+		Military: 1001076269218.9794
+		Income: 83423022434914.94
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1676973217.2333333
+		Territory: 19360000.0
+		Military: 1291510324781.519
+		Income: 47833715732648.84
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 14:
+	General:
+		Population: 1220594951.9466665
+		Territory: 27291600.0
+		Military: 910616790298.8438
+		Income: 35410319782995.98
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 812154692.3
+		Territory: 35352333.333333336
+		Military: 2215208244551.851
+		Income: 43606461506926.21
+	Europe:
+		Population: 2282255672.233333
+		Territory: 41077666.666666664
+		Military: 983468518796.0651
+		Income: 81955709899672.11
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1647564395.2
+		Territory: 21230000.0
+		Military: 1268861306356.3022
+		Income: 46994863198381.58
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 15:
+	General:
+		Population: 1198849470.7333333
+		Territory: 27291600.0
+		Military: 885396519582.7484
+		Income: 34581772911804.45
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 783184307.5666667
+		Territory: 33549000.0
+		Military: 2136189511153.4443
+		Income: 42050974629004.805
+	Europe:
+		Population: 2239977593.5333333
+		Territory: 40476000.0
+		Military: 965250069416.1392
+		Income: 80437505784678.27
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1610085452.5666666
+		Territory: 23635000.0
+		Military: 1239997135554.1584
+		Income: 45925819835339.18
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 16:
+	General:
+		Population: 1180119517.0133333
+		Territory: 27291600.0
+		Military: 868137554676.7758
+		Income: 33897908305578.117
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 767597230.7
+		Territory: 32366666.666666668
+		Military: 2093674678067.0046
+		Income: 41214068465885.91
+	Europe:
+		Population: 2191810336.7
+		Territory: 39856666.666666664
+		Military: 944493858221.8026
+		Income: 78707821518483.53
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1580190017.6666667
+		Territory: 25436666.666666668
+		Military: 1216973355305.0718
+		Income: 45073087233521.164
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 17:
+	General:
+		Population: 1162888171.7866666
+		Territory: 27291600.0
+		Military: 854252957498.667
+		Income: 33251327016016.24
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 755172885.8666667
+		Territory: 31597666.666666668
+		Military: 2059786415930.6223
+		Income: 40546976691547.67
+	Europe:
+		Population: 2129167971.5
+		Territory: 38653000.0
+		Military: 917500040278.1539
+		Income: 76458336689846.16
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1569100001.5666666
+		Territory: 27409333.333333332
+		Military: 1208432449494.5586
+		Income: 44756757388687.34
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 18:
+	General:
+		Population: 1145827648.0666666
+		Territory: 27291600.0
+		Military: 834393393899.2891
+		Income: 32431182972678.76
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 719780372.5666667
+		Territory: 30234333.333333332
+		Military: 1963250881504.8596
+		Income: 38646670895764.96
+	Europe:
+		Population: 2023999552.5
+		Territory: 35874666.666666664
+		Military: 872180915643.5148
+		Income: 72681742970292.89
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1624358315.2666667
+		Territory: 31551000.0
+		Military: 1250989290558.0708
+		Income: 46332936687335.97
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 19:
+	General:
+		Population: 1132857163.6399999
+		Territory: 27291600.0
+		Military: 817721504551.8467
+		Income: 31758081212303.164
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 686689185.9333333
+		Territory: 29364333.333333332
+		Military: 1872992375154.8323
+		Income: 36869928644780.18
+	Europe:
+		Population: 1931553971.9666667
+		Territory: 33583000.0
+		Military: 832344310453.9695
+		Income: 69362025871164.11
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1685042660.3
+		Territory: 34712666.666666664
+		Military: 1297724955360.432
+		Income: 48063887235571.55
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 20:
+	General:
+		Population: 1121574259.6399999
+		Territory: 27291600.0
+		Military: 794687253560.1555
+		Income: 31229207894695.914
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 648380471.1
+		Territory: 27916000.0
+		Military: 1768502698814.1594
+		Income: 34813045252247.234
+	Europe:
+		Population: 1921936458.8666666
+		Territory: 34601333.333333336
+		Military: 828199936325.3237
+		Income: 69016661360443.65
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1676554368.2333333
+		Territory: 35142666.666666664
+		Military: 1291187750871.2944
+		Income: 47821768550788.67
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 21:
+	General:
+		Population: 1111376696.9666667
+		Territory: 27291600.0
+		Military: 768384572403.2573
+		Income: 30682795982692.574
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 599903239.2666667
+		Territory: 25146666.666666668
+		Military: 1636277687189.6697
+		Income: 32210190692710.035
+	Europe:
+		Population: 1914138917.7333333
+		Territory: 35556333.333333336
+		Military: 824839823642.9673
+		Income: 68736651970247.28
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1681841327.8333333
+		Territory: 36957000.0
+		Military: 1295259469393.65
+		Income: 47972572940505.555
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 22:
+	General:
+		Population: 1102992160.9733334
+		Territory: 27291600.0
+		Military: 704000689847.119
+		Income: 29889436160540.637
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 465996593.96666664
+		Territory: 18047666.666666668
+		Military: 1271038025975.8816
+		Income: 25020433582202.4
+	Europe:
+		Population: 1995267045.9
+		Territory: 40554666.666666664
+		Military: 859799517691.046
+		Income: 71649959807587.16
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1692697165.0
+		Territory: 39057666.666666664
+		Military: 1303620023778.6675
+		Income: 48282223102913.61
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 23:
+	General:
+		Population: 1098914209.5466666
+		Territory: 27291600.0
+		Military: 628138573994.0419
+		Income: 29162865164257.26
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 304195163.76666665
+		Territory: 9789666.666666666
+		Military: 829713404499.8002
+		Income: 16332941033460.63
+	Europe:
+		Population: 2133503850.9666667
+		Territory: 47883000.0
+		Military: 919368455376.7076
+		Income: 76614037948058.97
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1695872033.0
+		Territory: 39987333.333333336
+		Military: 1306065128303.7017
+		Income: 48372782529766.73
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 24:
+	General:
+		Population: 1097923875.2666667
+		Territory: 27291600.0
+		Military: 617373844714.2131
+		Income: 29039758088108.594
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 281135330.7
+		Territory: 8315000.0
+		Military: 766816110657.1633
+		Income: 15094805327896.918
+	Europe:
+		Population: 2147866739.5666666
+		Territory: 48631333.333333336
+		Military: 925557704438.0331
+		Income: 77129808703169.42
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1699617306.0666666
+		Territory: 40713666.666666664
+		Military: 1308949526685.8694
+		Income: 48479612099476.625
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 25:
+	General:
+		Population: 1097511985.26
+		Territory: 27291600.0
+		Military: 616494654417.5574
+		Income: 29020542385923.76
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 279682045.56666666
+		Territory: 8208333.333333333
+		Military: 762852174673.5793
+		Income: 15016775091999.592
+	Europe:
+		Population: 2147764097.8
+		Territory: 48631333.333333336
+		Military: 925513474097.2091
+		Income: 77126122841434.08
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1699113782.9333334
+		Territory: 40820333.333333336
+		Military: 1308561741526.9988
+		Income: 48465249686185.13
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 26:
+	General:
+		Population: 1097151009.3133333
+		Territory: 27291600.0
+		Military: 615722851502.6016
+		Income: 29003759395224.28
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 278410567.3
+		Territory: 8101666.666666667
+		Military: 759384129526.7712
+		Income: 14948506486747.463
+	Europe:
+		Population: 2147705651.6666665
+		Territory: 48631333.333333336
+		Military: 925488288517.4872
+		Income: 77124024043123.95
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1698638827.6
+		Territory: 40927000.0
+		Military: 1308195957678.7498
+		Income: 48451702136249.984
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 27:
+	General:
+		Population: 1096796776.0866666
+		Territory: 27291600.0
+		Military: 615008023415.5007
+		Income: 28987800747376.395
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 277268866.93333334
+		Territory: 8016666.666666667
+		Military: 756270062602.0507
+		Income: 14887205956733.283
+	Europe:
+		Population: 2147632822.0333333
+		Territory: 48631333.333333336
+		Military: 925456904806.8495
+		Income: 77121408733904.14
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1698082191.4666667
+		Territory: 41012000.0
+		Military: 1307767267878.6038
+		Income: 48435824736244.555
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 28:
+	General:
+		Population: 1096472045.8133333
+		Territory: 27291600.0
+		Military: 612703577496.0315
+		Income: 28951919680143.15
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 272006242.96666664
+		Territory: 7462000.0
+		Military: 741915890780.5206
+		Income: 14604643519301.586
+	Europe:
+		Population: 2147546122.8
+		Territory: 48631333.333333336
+		Military: 925419544414.8372
+		Income: 77118295367903.1
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1701807863.3
+		Territory: 41566666.666666664
+		Military: 1310636570494.7993
+		Income: 48542095203511.07
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 29:
+	General:
+		Population: 1096287513.4
+		Territory: 27291600.0
+		Military: 612358049781.6345
+		Income: 28943868882766.273
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 271473984.46666664
+		Territory: 7415333.333333333
+		Military: 740464118810.7081
+		Income: 14576065330919.451
+	Europe:
+		Population: 2147473014.1
+		Territory: 48631333.333333336
+		Military: 925388040448.9254
+		Income: 77115670037410.45
+	Africa:
+		Population: 1320000000.0
+		Territory: 30272000.0
+		Military: 45759838080.0
+		Income: 2599990800000.0
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1701490568.4333334
+		Territory: 41613333.333333336
+		Military: 1310392207858.5393
+		Income: 48533044735501.45
+	Oceania:
+		Population: 41000000.0
+		Territory: 8526000.0
+		Military: 39786043710.0
+		Income: 1894573510000.0
+Day 30:
+	General:
+		Population: 1097138149.5689034
+		Territory: 27291600.0
+		Military: 610846264358.468
+		Income: 28932802130308.664
+	North America:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South America:
+		Population: 267065359.61161718
+		Territory: 6897333.333333333
+		Military: 728439288789.2443
+		Income: 14339356078528.43
+	Europe:
+		Population: 2148157164.538043
+		Territory: 48631333.333333336
+		Military: 925682854227.2948
+		Income: 77140237852274.55
+	Africa:
+		Population: 1322695000.000015
+		Territory: 30272000.0
+		Military: 45853264416.08049
+		Income: 2605299114550.03
+	Asia:
+		Population: 0.0
+		Territory: 0.0
+		Military: 0.0
+		Income: 0.0
+	South-East Asia:
+		Population: 1706726984.8059516
+		Territory: 42131333.333333336
+		Military: 1314425000833.7583
+		Income: 48682407438287.38
+	Oceania:
+		Population: 41046238.88888891
+		Territory: 8526000.0
+		Military: 39830913525.961845
+		Income: 1896710167902.944
