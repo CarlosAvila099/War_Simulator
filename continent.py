@@ -132,7 +132,7 @@ class Continent:
         self.military_spend = military_spend_gdp
         self.government_rate = government_rate
         self.world = None
-        self.__x = x 
+        self.__x = x
         self.__y = y
         self.color = color
 

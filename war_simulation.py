@@ -3,6 +3,7 @@ import copy
 import matplotlib.pyplot as plt
 
 from matplotlib import animation
+from assets import json_array
 from continent import World, Continent
 from configuration import DURATION
 
@@ -19,7 +20,7 @@ world = World(50,  [
 history = []
 
 def update_im(i, img, world: World):
-    history.append(copy.deepcopy(world))
+    history.append(json_array(world.get_array()))
     world.advance()
     img.set_array(world.get_array())
 
@@ -30,7 +31,7 @@ plt.show()
 
 json = "["
 for hist in history:
-    json += "{" + hist.to_json() + "},"
+    json += f"{hist},"
 json = json[:-1] + "]"
 
 file = open("info.json", "w")
