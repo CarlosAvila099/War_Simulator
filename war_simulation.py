@@ -9,7 +9,7 @@ from configuration import DURATION, STORY_SET
 
 from pprint import pprint
 
-
+'''
 # STORY 1: NORMAL WORLD (Geographically acurrate. Normal data, without changes)
 world = World(85,  [
                         Continent("North America", 5, 7, 30, 24710000, 580000000, 1, 50984.45, 88, 3.4, random.random()),
@@ -20,8 +20,8 @@ world = World(85,  [
                         Continent("South-East Asia", 60, 41, 180, 11840000, 680000000, 1.14, 4523.84, 70, 2.70, random.random()),
                         Continent("Oceania", 68, 57, 210, 8526000, 41000000, 1.4, 46209.11, 66, 2.10, random.random()),
                     ])
-
 '''
+
 # STORY 2: AFRICA CENTER (All around Africa. Increase in Income and Military Spend of As [1969.69 --> 12354.2][1.76 --> 6.76])
 #  - Values are adjusted so that NA and As can go to war with Af, Af can't defend itself from them, but Af can attack the other continents. 
 world = World(85,  [
@@ -33,7 +33,7 @@ world = World(85,  [
                     Continent("South-East Asia", 55, 38, 180, 11840000, 680000000, 1.14, 4523.84, 70, 2.70, random.random()),
                     Continent("Oceania", 33, 59, 210, 8526000, 41000000, 1.4, 46209.11, 66, 2.10, random.random()),
                     ])
-'''
+
 '''
 # STORY 3: COLD WAR 2 (Geographically accurate. NA, SA, Eu, S-EA and O against As and Af. )
 #  - Increase Military Spend in As, Af and NA; increase Income in SA, Eu, S-EA and O; half overall Growth)
@@ -168,6 +168,6 @@ else:
                 f"\t\tIncome: {continent.income[day]}\n"
             )
     
-    file = open("Stories/Story1.txt", "w")
+    file = open("Stories/Story2.txt", "w")
     file.write(text)
     file.close()
