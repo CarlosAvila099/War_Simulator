@@ -31,7 +31,7 @@ plt.show()
 
 json = "["
 for hist in history:
-    json += f"{hist},"
+    json += f"[{hist}],"
 json = json[:-1] + "]"
 
 file = open("info.json", "w")
