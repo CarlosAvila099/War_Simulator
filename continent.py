@@ -51,6 +51,17 @@ class World:
                 for land in continent.land: land.grow()
             continent.advance()
 
+    def get_info(self):
+        """Gets the information needed to create stories.
+
+        Returns:
+            dict: A dict containing all the information of the Continents to create a story.
+        """
+        continents = dict()
+        for cont in self.continents:
+            continents[cont.name] = {'income': cont.total_income(), 'military': cont.military_spending(), 'territory': cont.territory(), 'population': cont.population()}
+        return continents
+
     def get_array(self):
         """Returns the world as an int array to paint in matplotlib.
 
@@ -176,6 +187,14 @@ class Continent:
             float: The total income of the Continent.
         """
         return self.population() * self.income
+
+    def military_spending(self):
+        """Calculates the military spending of a Land.
+
+        Returns:
+            float: The Land's military spending
+        """
+        return (self.military_spend / 100) * self.total_income()
 
     def border_with(self, continent):
         """Finds the Land borders of the Continent with another Continent.

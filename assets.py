@@ -1,5 +1,67 @@
+import contextlib
 import math
 from configuration import *
+from configuration import STORY_SET, DURATION
+
+class Story_Continent:
+    def __init__(self, name):
+        self.name = name
+        self.population = []
+        self.territory = []
+        self.military = []
+        self.income = []
+
+        self.__pos = 0
+        self.__cont = 0
+
+    def add_day(self):
+        self.population.append(0)
+        self.territory.append(0)
+        self.military.append(0)
+        self.income.append(0)
+
+    def add_info(self, info: dict):
+        self.population[self.__pos] += info['population']
+        self.territory[self.__pos] += info['territory']
+        self.military[self.__pos] += info['military']
+        self.income[self.__pos] += info['income']
+
+    def add_continent(self, continent):
+        self.population[self.__pos] += continent.population[self.__pos]
+        self.territory[self.__pos] += continent.territory[self.__pos]
+        self.military[self.__pos] += continent.military[self.__pos]
+        self.income[self.__pos] += continent.income[self.__pos]
+
+        if continent.get_day(self.__pos): self.__cont += 1
+
+    def end_day(self):
+        if self.__cont > 0:
+            self.population[self.__pos] /= self.__cont
+            self.territory[self.__pos] /= self.__cont
+            self.military[self.__pos] /= self.__cont
+            self.income[self.__pos] /= self.__cont
+            self.__cont = 0
+        else:
+            self.population[self.__pos] /= STORY_SET
+            self.territory[self.__pos] /= STORY_SET
+            self.military[self.__pos] /= STORY_SET
+            self.income[self.__pos] /= STORY_SET
+        self.__pos += 1
+    
+    def get_day(self, day: int):
+        return (self.population[day] + self.territory[day] + self.military[day] + self.income[day]) > 0
+    
+    def get_average(self):
+        average = {
+            'population': sum(self.population) / DURATION,
+            'territory': sum(self.territory) / DURATION,
+            'military': sum(self.military) / DURATION,
+            'income': sum(self.income) / DURATION
+        }
+        return average
+
+    def __repr__(self):
+        return f"{self.name}, P: {self.population}, T: {self.territory}, M: {self.military}, I: {self.income}"
 
 def get_date(days: int):
     """Formats a number of days into a date.
