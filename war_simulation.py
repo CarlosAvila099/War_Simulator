@@ -22,6 +22,7 @@ world = World(85,  [
                     ])
 '''
 '''
+
 # STORY 2: AFRICA CENTER (All around Africa. Increase in Income and Military Spend of As [1969.69 --> 12354.2][1.76 --> 6.76])
 #  - Values are adjusted so that NA and As can go to war with Af, Af can't defend itself from them, but Af can attack the other continents. 
 world = World(85,  [
@@ -33,6 +34,7 @@ world = World(85,  [
                     Continent("South-East Asia", 55, 38, 180, 11840000, 680000000, 1.14, 4523.84, 70, 2.70, random.random()),
                     Continent("Oceania", 33, 59, 210, 8526000, 41000000, 1.4, 46209.11, 66, 2.10, random.random()),
                     ])
+
 '''
 '''
 # STORY 3: COLD WAR 2 (Geographically accurate. NA, SA, Eu, S-EA and O against As and Af. )
@@ -65,6 +67,7 @@ world = World(85,  [
                     ])
 
 '''
+
 # STORY 5: OCEANIA CONQUEST (Geographically acurrate. Increase Growth, Income and Military Spend in O 
 #   - [1.4 --> 8.4][46209.11 --> 356209.11][2.10 --> 102.10])
 world = World(85,  [
@@ -76,6 +79,7 @@ world = World(85,  [
                     Continent("South-East Asia", 60, 41, 180, 11840000, 680000000, 1.14, 4523.84, 70, 2.70, random.random()),
                     Continent("Oceania", 68, 57, 210, 8526000, 41000000, 8.4, 356209.11, 98, 102.10, random.random()),
                     ])
+
 
 def update_im(i, img, world: World):
     history.append(json_array(world.get_array()))
