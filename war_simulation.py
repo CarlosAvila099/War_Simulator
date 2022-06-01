@@ -1,6 +1,7 @@
 from copy import deepcopy
 import random
 import matplotlib.pyplot as plt
+import json
 
 from matplotlib import animation
 from assets import Story_Continent, json_array
@@ -9,8 +10,9 @@ from configuration import DURATION, STORY_SET
 
 from pprint import pprint
 
-'''
+
 # STORY 1: NORMAL WORLD (Geographically acurrate. Normal data, without changes)
+sim = 1
 world = World(85,  [
                         Continent("North America", 5, 7, 30, 24710000, 580000000, 1, 50984.45, 88, 3.4, random.random()),
                         Continent("South America", 5, 30, 60, 17840000, 423000000, 1, 7692.31, 94.95, 5.08, random.random()),
@@ -21,10 +23,11 @@ world = World(85,  [
                         Continent("Oceania", 68, 57, 210, 8526000, 41000000, 1.4, 46209.11, 66, 2.10, random.random()),
                     ])
 '''
-'''
+
 
 # STORY 2: AFRICA CENTER (All around Africa. Increase in Income and Military Spend of As [1969.69 --> 12354.2][1.76 --> 6.76])
 #  - Values are adjusted so that NA and As can go to war with Af, Af can't defend itself from them, but Af can attack the other continents. 
+sim = 2
 world = World(85,  [
                     Continent("North America", 16, 11, 30, 24710000, 580000000, 1, 50984.45, 88, 3.4, random.random()),
                     Continent("South America", 13, 48, 60, 17840000, 423000000, 1, 7692.31, 94.95, 5.08, random.random()),
@@ -42,6 +45,7 @@ world = World(85,  [
 #  - ([3.4 --> 12.4][1.76 --> 4.76][2.70 --> 9.70]; 
 #     [7692.31 --> 17692.31][22909.96 --> 62909.96][4523.84 --> 34723.84][46209.11 --> 86209.11];
 #     [half in every continent])
+sim = 3
 world = World(85,  [
                     Continent("North America", 5, 7, 30, 24710000, 580000000, 0.5, 50984.45, 88, 12.4, random.random()),
                     Continent("South America", 5, 30, 60, 17840000, 423000000, 0.5, 17692.31, 94.95, 5.08, random.random()),
@@ -56,6 +60,7 @@ world = World(85,  [
 '''
 # STORY 4: SWITCH OF POWER (New arrangement of continents. The Income of NA and As goes down, while Income of SA, Eu and S-EA goes up). 
 #  - ([50984.45 --> 10984.45][7829.11 --> 1829.11]; [7692.31 --> 53692.31][22909.96 --> 35909.96][4523.84 --> 28523.84])
+sim = 4
 world = World(85,  [
                     Continent("North America", 22, 14, 30, 24710000, 580000000, 1, 10984.45, 88, 3.4, random.random()),
                     Continent("South America", 4, 35, 60, 17840000, 423000000, 1, 53692.31, 94.95, 5.08, random.random()),
@@ -67,9 +72,10 @@ world = World(85,  [
                     ])
 
 '''
-
+'''
 # STORY 5: OCEANIA CONQUEST (Geographically acurrate. Increase Growth, Income and Military Spend in O 
 #   - [1.4 --> 8.4][46209.11 --> 356209.11][2.10 --> 102.10])
+sim = 5
 world = World(85,  [
                     Continent("North America", 5, 7, 30, 24710000, 580000000, 1, 50984.45, 88, 3.4, random.random()),
                     Continent("South America", 5, 30, 60, 17840000, 423000000, 1, 7692.31, 94.95, 5.08, random.random()),
@@ -79,7 +85,7 @@ world = World(85,  [
                     Continent("South-East Asia", 60, 41, 180, 11840000, 680000000, 1.14, 4523.84, 70, 2.70, random.random()),
                     Continent("Oceania", 68, 57, 210, 8526000, 41000000, 8.4, 356209.11, 98, 102.10, random.random()),
                     ])
-
+'''
 
 def update_im(i, img, world: World):
     history.append(json_array(world.get_array()))
@@ -136,6 +142,9 @@ else:
         average.end_day()
 
     general = average.get_average()
+
+    '''
+    #Text Writing
     text = (
         "Story:\n"
         "\tGeneral:\n"
@@ -153,7 +162,7 @@ else:
             f"\t\tMilitary: {continent['military']}\n"
             f"\t\tIncome: {continent['income']}\n"
         )
-
+        
     for day in range(DURATION):
         text += (
             f"Day {day+1}:\n"
@@ -172,7 +181,51 @@ else:
                 f"\t\tMilitary: {continent.military[day]}\n"
                 f"\t\tIncome: {continent.income[day]}\n"
             )
-    
-    file = open("Stories/Story5.txt", "w")
+
+    file = open("Stories/Story"+str(sim)+".txt", "w")
     file.write(text)
     file.close()
+    '''
+
+    #JSON writing
+    outputJson = {
+        "Story": {
+            "General": {
+                "Population": general["population"],
+                "Territory": general["territory"],
+                "Military": general["military"],
+                "Income": general["income"],
+            }
+        }
+    }
+
+    for cont in continents.keys():
+        continent = continents[cont].get_average()
+        outputJson["Story"][cont] = {
+            "Population": continent["population"],
+            "Territory": continent["territory"],
+            "Military": continent["military"],
+            "Income": continent["income"],
+        }
+    
+    for day in range(DURATION):
+        outputJson["Day " + str(day+1)] = {
+            "General": {
+                "Population": average.population[day],
+                "Territory": average.territory[day],
+                "Military": average.military[day],
+                "Income": average.income[day],
+            }
+        }
+        
+        for cont in continents.keys():
+            continent = continents[cont]
+            outputJson["Day " + str(day+1)][cont] = {
+                "Population": continent.population[day],
+                "Territory": continent.territory[day],
+                "Military": continent.military[day],
+                "Income": continent.income[day],
+            }
+    
+    with open('Stories/Story'+str(sim)+'.json', 'w') as outfile:
+        json.dump(outputJson, outfile, indent=4)

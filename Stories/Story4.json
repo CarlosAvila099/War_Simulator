@@ -1,0 +1,1552 @@
+{
+    "Story": {
+        "General": {
+            "Population": 1148299202.4491043,
+            "Territory": 25082280.0,
+            "Military": 951617434342.7084,
+            "Income": 29605800581287.016
+        },
+        "North America": {
+            "Population": 75128314.88111112,
+            "Territory": 2951777.777777777,
+            "Military": 28058269425.45791,
+            "Income": 825243218395.821
+        },
+        "South America": {
+            "Population": 1277922332.7485147,
+            "Territory": 36700288.88888889,
+            "Military": 3485621783929.505,
+            "Income": 68614602045856.375
+        },
+        "Europe": {
+            "Population": 1499045542.2691162,
+            "Territory": 30452177.777777772,
+            "Military": 645967985532.7473,
+            "Income": 53830665461062.29
+        },
+        "Africa": {
+            "Population": 1320089833.3333337,
+            "Territory": 30272000.0,
+            "Military": 45762952291.20268,
+            "Income": 2600167743818.3345
+        },
+        "Asia": {
+            "Population": 1197192265.241111,
+            "Territory": 10238188.88888889,
+            "Military": 59124501295.429565,
+            "Income": 2189796344275.1685
+        },
+        "South-East Asia": {
+            "Population": 915823700.2383395,
+            "Territory": 17317566.66666667,
+            "Military": 705315834732.7719,
+            "Income": 26122808693806.363
+        },
+        "Oceania": {
+            "Population": 41001594.44444444,
+            "Territory": 8526000.0,
+            "Military": 39787590945.03317,
+            "Income": 1894647187858.7222
+        }
+    },
+    "Day 1": {
+        "General": {
+            "Population": 1101547910.0333333,
+            "Territory": 19494000.0,
+            "Military": 354457952629.5088,
+            "Income": 12367026368921.215
+        },
+        "North America": {
+            "Population": 538477621.8333334,
+            "Territory": 22480000.0,
+            "Military": 201105937447.00342,
+            "Income": 5914880513147.158
+        },
+        "South America": {
+            "Population": 422891589.3,
+            "Territory": 18090000.0,
+            "Military": 1153466136501.6848,
+            "Income": 22706026309088.273
+        },
+        "Europe": {
+            "Population": 746612825.5,
+            "Territory": 11230000.0,
+            "Military": 321730040390.30365,
+            "Income": 26810836699191.984
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 3961853333.6,
+            "Territory": 34020000.0,
+            "Military": 195659969877.56955,
+            "Income": 7246665551021.097
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 2": {
+        "General": {
+            "Population": 1087736238.7285714,
+            "Territory": 19494000.0,
+            "Military": 351644504927.4828,
+            "Income": 12273744192263.688
+        },
+        "North America": {
+            "Population": 496485737.03333336,
+            "Territory": 20123333.333333332,
+            "Military": 185423173641.29718,
+            "Income": 5453622754155.798
+        },
+        "South America": {
+            "Population": 422756164.1333333,
+            "Territory": 18540000.0,
+            "Military": 1153096754968.137,
+            "Income": 22698755019057.812
+        },
+        "Europe": {
+            "Population": 744128726.4,
+            "Territory": 11926666.666666666,
+            "Military": 320659593598.49927,
+            "Income": 26721632799874.94
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 3909783043.5333333,
+            "Territory": 35230000.0,
+            "Military": 193088428094.44592,
+            "Income": 7151423262757.256
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 3": {
+        "General": {
+            "Population": 1073142152.8238095,
+            "Territory": 19494000.0,
+            "Military": 348724976945.7685,
+            "Income": 12171834190481.469
+        },
+        "North America": {
+            "Population": 455592296.56666666,
+            "Territory": 17808333.333333332,
+            "Military": 170150647268.7385,
+            "Income": 5004430802021.722
+        },
+        "South America": {
+            "Population": 422548503.8666667,
+            "Territory": 19190000.0,
+            "Military": 1152530347189.9795,
+            "Income": 22687605259645.266
+        },
+        "Europe": {
+            "Population": 739981311.7666667,
+            "Territory": 13011666.666666666,
+            "Military": 318872391675.46246,
+            "Income": 26572699306288.527
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 3852872957.5666666,
+            "Territory": 35810000.0,
+            "Military": 190277868296.1987,
+            "Income": 7047328455414.764
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 4": {
+        "General": {
+            "Population": 1057528783.0857143,
+            "Territory": 19494000.0,
+            "Military": 345251717272.8302,
+            "Income": 12048615202592.688
+        },
+        "North America": {
+            "Population": 406600707.6666667,
+            "Territory": 15198333.333333334,
+            "Military": 151853694873.19,
+            "Income": 4466285143329.116
+        },
+        "South America": {
+            "Population": 422242873.03333336,
+            "Territory": 20040000.0,
+            "Military": 1151696717897.1758,
+            "Income": 22671195234196.37
+        },
+        "Europe": {
+            "Population": 734164635.4333333,
+            "Territory": 14481666.666666666,
+            "Military": 316365872301.907,
+            "Income": 26363822691825.582
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 3798693265.4666667,
+            "Territory": 36100000.0,
+            "Military": 187602151647.53885,
+            "Income": 6948227838797.734
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 5": {
+        "General": {
+            "Population": 1040086439.2714285,
+            "Territory": 19494000.0,
+            "Military": 341514695426.2055,
+            "Income": 11911437673087.34
+        },
+        "North America": {
+            "Population": 356693083.3333333,
+            "Territory": 12943333.333333334,
+            "Military": 133214629533.50833,
+            "Income": 3918077339220.834
+        },
+        "South America": {
+            "Population": 421851727.4,
+            "Territory": 21090000.0,
+            "Military": 1150629841057.092,
+            "Income": 22650193721596.29
+        },
+        "Europe": {
+            "Population": 726544296.9,
+            "Territory": 16321666.666666666,
+            "Military": 313082119678.8855,
+            "Income": 26090176639907.125
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 3734515967.266667,
+            "Territory": 35465000.0,
+            "Military": 184432693523.9526,
+            "Income": 6830840500887.135
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 6": {
+        "General": {
+            "Population": 1202505287.9777777,
+            "Territory": 22743000.0,
+            "Military": 513022674357.4475,
+            "Income": 15906716455031.209
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 723845520.3333334,
+            "Territory": 32392000.0,
+            "Military": 1974338853948.311,
+            "Income": 38864938069848.63
+        },
+        "Europe": {
+            "Population": 720190519.2,
+            "Territory": 18133333.333333332,
+            "Military": 310344152842.21484,
+            "Income": 25862012736851.23
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 3729995688.3333335,
+            "Territory": 35294666.666666664,
+            "Military": 184209455164.15933,
+            "Income": 6822572413487.384
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 7": {
+        "General": {
+            "Population": 1181831953.8999999,
+            "Territory": 22743000.0,
+            "Military": 524322257576.0795,
+            "Income": 16059394938477.482
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 752987723.0,
+            "Territory": 34597000.0,
+            "Military": 2053826232675.1145,
+            "Income": 40429650249510.13
+        },
+        "Europe": {
+            "Population": 709379340.1333333,
+            "Territory": 20425000.0,
+            "Military": 305685404748.17267,
+            "Income": 25473783729014.39
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 3587624660.266667,
+            "Territory": 30798000.0,
+            "Military": 177178323843.1898,
+            "Income": 6562160142340.361
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 8": {
+        "General": {
+            "Population": 1159142414.4666665,
+            "Territory": 22743000.0,
+            "Military": 547753372639.2005,
+            "Income": 16423742191267.744
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 810220037.4666667,
+            "Territory": 38738666.666666664,
+            "Military": 2209931339329.491,
+            "Income": 43502585419871.88
+        },
+        "Europe": {
+            "Population": 693735438.2333333,
+            "Territory": 22355000.0,
+            "Military": 298944142050.4976,
+            "Income": 24912011837541.465
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 3409899011.1,
+            "Territory": 24726333.333333332,
+            "Military": 168401170265.21426,
+            "Income": 6237080380193.121
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 9": {
+        "General": {
+            "Population": 1122976912.3833334,
+            "Territory": 22743000.0,
+            "Military": 550820706510.4106,
+            "Income": 16353435798905.828
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 824235994.1,
+            "Territory": 40193666.666666664,
+            "Military": 2248160833025.4683,
+            "Income": 44255134508375.38
+        },
+        "Europe": {
+            "Population": 671674761.1333333,
+            "Territory": 24088333.333333332,
+            "Military": 289437765663.69073,
+            "Income": 24119813805307.555
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 3200950719.0666666,
+            "Territory": 21538000.0,
+            "Military": 158082056183.30484,
+            "Income": 5854890969752.031
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 10": {
+        "General": {
+            "Population": 1087434976.5277777,
+            "Territory": 22743000.0,
+            "Military": 850599926893.4171,
+            "Income": 22013784308906.887
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1503417754.3333333,
+            "Territory": 45123000.0,
+            "Military": 4100676183958.594,
+            "Income": 80721972125169.17
+        },
+        "Europe": {
+            "Population": 646077167.6,
+            "Territory": 25855000.0,
+            "Military": 278407262945.15155,
+            "Income": 23200605245429.293
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 2334114937.233333,
+            "Territory": 14842000.0,
+            "Military": 115272530266.75728,
+            "Income": 4269352972842.8613
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 11": {
+        "General": {
+            "Population": 1067252534.1722223,
+            "Territory": 22743000.0,
+            "Military": 1076845760778.0001,
+            "Income": 33165444711858.5
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1795145650.2,
+            "Territory": 47605333.333333336,
+            "Military": 4896384250681.049,
+            "Income": 96385516745689.94
+        },
+        "Europe": {
+            "Population": 2171905181.0333333,
+            "Territory": 34893000.0,
+            "Military": 935916338096.397,
+            "Income": 77993028174699.75
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 395464373.8,
+            "Territory": 3321666.6666666665,
+            "Military": 19530391700.555588,
+            "Income": 723347840761.318
+        },
+        "South-East Asia": {
+            "Population": 680000000.0,
+            "Territory": 11840000.0,
+            "Military": 523697702400.00006,
+            "Income": 19396211200000.0
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 12": {
+        "General": {
+            "Population": 1263482010.74,
+            "Territory": 27291600.0,
+            "Military": 1327973110403.5706,
+            "Income": 41252584670313.8
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1770068849.9,
+            "Territory": 48095333.333333336,
+            "Military": 4827985538836.8545,
+            "Income": 95039085410174.23
+        },
+        "Europe": {
+            "Population": 2144913289.9,
+            "Territory": 34946333.333333336,
+            "Military": 924285005325.3287,
+            "Income": 77023750443777.4
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1041427913.9,
+            "Territory": 14618333.333333334,
+            "Military": 802049126065.6693,
+            "Income": 29705523187617.38
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 13": {
+        "General": {
+            "Population": 1248428369.3,
+            "Territory": 27291600.0,
+            "Military": 1305219074563.6423,
+            "Income": 40588049398353.414
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1734800903.2,
+            "Territory": 47750333.333333336,
+            "Military": 4731789768451.034,
+            "Income": 93145467882894.39
+        },
+        "Europe": {
+            "Population": 2105907993.2,
+            "Territory": 34986333.333333336,
+            "Military": 907476861593.9075,
+            "Income": 75623071799492.28
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1040432950.1,
+            "Territory": 14923333.333333334,
+            "Military": 801282860983.2704,
+            "Income": 29677142999380.387
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 14": {
+        "General": {
+            "Population": 1230426954.8266666,
+            "Territory": 27291600.0,
+            "Military": 1281128419388.785,
+            "Income": 39839186806001.46
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1701014183.1,
+            "Territory": 47387000.0,
+            "Military": 4639634146336.818,
+            "Income": 91331380833401.98
+        },
+        "Europe": {
+            "Population": 2061689163.9,
+            "Territory": 34473000.0,
+            "Military": 888422104896.9895,
+            "Income": 74035175408082.44
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1028431427.1333333,
+            "Territory": 15800000.0,
+            "Military": 792039963920.1173,
+            "Income": 29334813478522.863
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 15": {
+        "General": {
+            "Population": 1214226046.5066667,
+            "Territory": 27291600.0,
+            "Military": 1264574405398.65,
+            "Income": 39203459599344.2
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1681660958.4333334,
+            "Territory": 47383000.0,
+            "Military": 4586846883951.062,
+            "Income": 90292261495099.64
+        },
+        "Europe": {
+            "Population": 2010108036.7333333,
+            "Territory": 33698666.666666664,
+            "Military": 866194790337.2703,
+            "Income": 72182899194772.55
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1018361237.3666667,
+            "Territory": 16578333.333333334,
+            "Military": 784284470914.9182,
+            "Income": 29047572996848.82
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 16": {
+        "General": {
+            "Population": 1200256430.0266669,
+            "Territory": 27291600.0,
+            "Military": 1294899550243.2217,
+            "Income": 38998102889490.016
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1761884637.7666667,
+            "Territory": 50115333.333333336,
+            "Military": 4805662532684.443,
+            "Income": 94599656155205.56
+        },
+        "Europe": {
+            "Population": 1867468154.2,
+            "Territory": 30254666.666666668,
+            "Military": 804728480623.15,
+            "Income": 67060706718595.836
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1010929358.1666666,
+            "Territory": 17290000.0,
+            "Military": 778560856118.5149,
+            "Income": 28835587263648.69
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 17": {
+        "General": {
+            "Population": 1189437927.0800002,
+            "Territory": 27291600.0,
+            "Military": 1275788927332.5984,
+            "Income": 38510500754352.88
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1731369903.7333333,
+            "Territory": 49115333.333333336,
+            "Military": 4722431479472.751,
+            "Income": 92961249595920.28
+        },
+        "Europe": {
+            "Population": 1850263549.8666666,
+            "Territory": 30643000.0,
+            "Military": 797314680782.0402,
+            "Income": 66442890065170.01
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1004556181.8,
+            "Territory": 17901666.666666668,
+            "Military": 773652594618.2012,
+            "Income": 28653799800674.113
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 18": {
+        "General": {
+            "Population": 1180489783.0933332,
+            "Territory": 27291600.0,
+            "Military": 1262396634645.1697,
+            "Income": 38006035029189.26
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1702546560.6666667,
+            "Territory": 48110333.333333336,
+            "Military": 4643813812417.223,
+            "Income": 91413657724748.47
+        },
+        "Europe": {
+            "Population": 1779764824.7333333,
+            "Territory": 28874000.0,
+            "Military": 766935403986.9722,
+            "Income": 63911283665581.016
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1059137530.0666667,
+            "Territory": 20675666.666666668,
+            "Military": 815688075031.6534,
+            "Income": 30210669445616.79
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 19": {
+        "General": {
+            "Population": 1171540668.273333,
+            "Territory": 27291600.0,
+            "Military": 1245136659594.9412,
+            "Income": 37590858510492.484
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1674100857.5,
+            "Territory": 47422000.0,
+            "Military": 4566226184377.517,
+            "Income": 89886342212155.81
+        },
+        "Europe": {
+            "Population": 1768441942.0333333,
+            "Territory": 29774000.0,
+            "Military": 762056152808.8717,
+            "Income": 63504679400739.32
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1054160541.8333334,
+            "Territory": 20464000.0,
+            "Military": 811855078998.3173,
+            "Income": 30068706629567.31
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 20": {
+        "General": {
+            "Population": 1162782257.2933333,
+            "Territory": 27291600.0,
+            "Military": 1226805047312.2542,
+            "Income": 37167491911301.375
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1642692936.8,
+            "Territory": 46087000.0,
+            "Military": 4480558902591.78,
+            "Income": 88199978397475.97
+        },
+        "Europe": {
+            "Population": 1757986368.7666667,
+            "Territory": 30732333.333333332,
+            "Military": 757550642195.475,
+            "Income": 63129220182956.25
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1052231980.9,
+            "Territory": 20840666.666666668,
+            "Military": 810369809984.0159,
+            "Income": 30013696666074.66
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 21": {
+        "General": {
+            "Population": 1154658992.3133335,
+            "Territory": 27291600.0,
+            "Military": 1205040410351.532,
+            "Income": 36714593686881.0
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1601471550.1333334,
+            "Territory": 43824333.333333336,
+            "Military": 4368124711837.725,
+            "Income": 85986706925939.47
+        },
+        "Europe": {
+            "Population": 1748715149.8333333,
+            "Territory": 31697333.333333332,
+            "Military": 753555492982.908,
+            "Income": 62796291081909.0
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1062108261.6,
+            "Territory": 22138333.333333332,
+            "Military": 817975965147.0269,
+            "Income": 30295406116556.543
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 22": {
+        "General": {
+            "Population": 1148057558.3133333,
+            "Territory": 27291600.0,
+            "Military": 1190961041518.2341,
+            "Income": 36392024159227.07
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1577121485.6666667,
+            "Territory": 42684333.333333336,
+            "Military": 4301708222376.6206,
+            "Income": 84679295716075.23
+        },
+        "Europe": {
+            "Population": 1740794545.3333333,
+            "Territory": 32690666.666666668,
+            "Military": 750142349893.6584,
+            "Income": 62511862491138.195
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1061371760.5666667,
+            "Territory": 22285000.0,
+            "Military": 817408753530.8917,
+            "Income": 30274398278921.91
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 23": {
+        "General": {
+            "Population": 1142446990.1866667,
+            "Territory": 27291600.0,
+            "Military": 1172476761662.0312,
+            "Income": 36057554875419.7
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1541509257.0666666,
+            "Territory": 40561333.333333336,
+            "Military": 4204573399233.292,
+            "Income": 82767192898293.16
+        },
+        "Europe": {
+            "Population": 1744061974.7666667,
+            "Territory": 34305666.666666664,
+            "Military": 751550349016.704,
+            "Income": 62629195751392.01
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1065663719.1,
+            "Territory": 22793000.0,
+            "Military": 820714178270.1604,
+            "Income": 30396821417413.348
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 24": {
+        "General": {
+            "Population": 1138731723.4333332,
+            "Territory": 27291600.0,
+            "Military": 1126784733714.2642,
+            "Income": 35572605294891.11
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1444770742.5333333,
+            "Territory": 33800000.0,
+            "Military": 3940712392221.1196,
+            "Income": 77573078587029.9
+        },
+        "Europe": {
+            "Population": 1817155949.7333333,
+            "Territory": 40577333.333333336,
+            "Military": 783047969624.2322,
+            "Income": 65253997468686.0
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1070731924.9,
+            "Territory": 23282666.666666668,
+            "Military": 824617424935.9698,
+            "Income": 30541386108739.617
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 25": {
+        "General": {
+            "Population": 1137228843.3333333,
+            "Territory": 27291600.0,
+            "Military": 1101511542281.7424,
+            "Income": 35327967670451.39
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1391158801.4333334,
+            "Territory": 30040000.0,
+            "Military": 3794482104989.978,
+            "Income": 74694529625786.97
+        },
+        "Europe": {
+            "Population": 1863253490.3333333,
+            "Territory": 44337333.333333336,
+            "Military": 802912299692.7645,
+            "Income": 66909358307730.38
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1070731924.9,
+            "Territory": 23282666.666666668,
+            "Military": 824617424935.9698,
+            "Income": 30541386108739.617
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 26": {
+        "General": {
+            "Population": 1136956668.9533334,
+            "Territory": 27291600.0,
+            "Military": 1092491133619.765,
+            "Income": 35249274341185.98
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1371777056.0,
+            "Territory": 28606666.666666668,
+            "Military": 3741617050235.2793,
+            "Income": 73653878941639.36
+        },
+        "Europe": {
+            "Population": 1881281836.0,
+            "Territory": 45770666.666666664,
+            "Military": 810681065753.8386,
+            "Income": 67556755479486.555
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1070724452.7666667,
+            "Territory": 23282666.666666668,
+            "Military": 824611670319.7069,
+            "Income": 30541172974803.957
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 27": {
+        "General": {
+            "Population": 1136911112.3600001,
+            "Territory": 27291600.0,
+            "Military": 1092427374044.1719,
+            "Income": 35247399415561.12
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1371688558.7,
+            "Territory": 28606666.666666668,
+            "Military": 3741375667712.4185,
+            "Income": 73649127317173.6
+        },
+        "Europe": {
+            "Population": 1881193827.4666667,
+            "Territory": 45770666.666666664,
+            "Military": 810643141158.8988,
+            "Income": 67553595096574.9
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1070673175.6333333,
+            "Territory": 23282666.666666668,
+            "Military": 824572179559.5417,
+            "Income": 30539710354057.1
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 28": {
+        "General": {
+            "Population": 1136894015.98,
+            "Territory": 27291600.0,
+            "Military": 1092398327179.616,
+            "Income": 35246617625071.33
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1371641360.1666667,
+            "Territory": 28606666.666666668,
+            "Military": 3741246930439.6274,
+            "Income": 73646593118890.31
+        },
+        "Europe": {
+            "Population": 1881155544.1,
+            "Territory": 45770666.666666664,
+            "Military": 810626644108.9108,
+            "Income": 67552220342409.234
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1070673175.6333333,
+            "Territory": 23282666.666666668,
+            "Military": 824572179559.5417,
+            "Income": 30539710354057.1
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 29": {
+        "General": {
+            "Population": 1136876164.52,
+            "Territory": 27291600.0,
+            "Military": 1092363564637.9587,
+            "Income": 35245766984039.3
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1371582426.5,
+            "Territory": 28606666.666666668,
+            "Military": 3741086184776.862,
+            "Income": 73643428834190.2
+        },
+        "Europe": {
+            "Population": 1881125220.4666667,
+            "Territory": 45770666.666666664,
+            "Military": 810613577063.3901,
+            "Income": 67551131421949.18
+        },
+        "Africa": {
+            "Population": 1320000000.0,
+            "Territory": 30272000.0,
+            "Military": 45759838080.0,
+            "Income": 2599990800000.0
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1070673175.6333333,
+            "Territory": 23282666.666666668,
+            "Military": 824572179559.5417,
+            "Income": 30539710354057.1
+        },
+        "Oceania": {
+            "Population": 41000000.0,
+            "Territory": 8526000.0,
+            "Military": 39786043710.0,
+            "Income": 1894573510000.0
+        }
+    },
+    "Day 30": {
+        "General": {
+            "Population": 1137957953.569157,
+            "Territory": 27291600.0,
+            "Military": 1093187766432.7478,
+            "Income": 35268767785249.32
+        },
+        "North America": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South America": {
+            "Population": 1372665415.9887629,
+            "Territory": 28606666.666666668,
+            "Military": 3744040113710.6177,
+            "Income": 73701577041547.61
+        },
+        "Europe": {
+            "Population": 1881691203.373492,
+            "Territory": 45770666.666666664,
+            "Military": 810857470145.9275,
+            "Income": 67571455845493.945
+        },
+        "Africa": {
+            "Population": 1322695000.000015,
+            "Territory": 30272000.0,
+            "Military": 45853264416.08049,
+            "Income": 2605299114550.03
+        },
+        "Asia": {
+            "Population": 0.0,
+            "Territory": 0.0,
+            "Military": 0.0,
+            "Income": 0.0
+        },
+        "South-East Asia": {
+            "Population": 1071690315.150181,
+            "Territory": 23282666.666666668,
+            "Military": 825355523130.1194,
+            "Income": 30568723078893.35
+        },
+        "Oceania": {
+            "Population": 41047833.33333335,
+            "Territory": 8526000.0,
+            "Military": 39832460760.99501,
+            "Income": 1896783845761.6665
+        }
+    }
+}
