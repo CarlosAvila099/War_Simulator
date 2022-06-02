@@ -6,9 +6,7 @@ import json
 from matplotlib import animation
 from assets import Story_Continent, json_array
 from continent import World, Continent
-from configuration import DURATION, STORY_SET
-
-from pprint import pprint
+from configuration import DURATION, STORY_SET, RUN
 
 
 # STORY 1: NORMAL WORLD (Geographically acurrate. Normal data, without changes)
@@ -92,9 +90,7 @@ def update_im(i, img, world: World):
     world.advance()
     img.set_array(world.get_array())
 
-show = False
-
-if show:
+if RUN:
     history = []
     fig, ax = plt.subplots()
     img = ax.imshow(world.get_array())

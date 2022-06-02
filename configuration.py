@@ -10,5 +10,6 @@ CASUALTY_STOP = 40              # The percentaje of casualties needed to complet
 INSURGENCY_SUPPORT = 0.2        # An extra to the government rate when the insurgents win the Civil War.
 STALE_TIME = 15                 # The number of battles needed for a Stale State to end a War.
 STORY_SET = 30                  # The number of simulations per story.
+RUN = True                      # A flag to determine whether to run the simulator or to run the story creation.
 
 MONTHS = [31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365]
