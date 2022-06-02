@@ -1,4 +1,4 @@
-# War_Simulator
+# War Simulator
 Final Project of Simulation Class, a simulator of war between continents.
 
 ## Specification
