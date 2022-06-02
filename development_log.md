@@ -97,3 +97,11 @@ This step was to save the data made by the simulation and pass it to the **Data 
 * Although the information is saved, it takes a lot of space, so we changed it to only saving the grid being shown.
 
 ## Data Visualization
+In this step we use the information we gathered before and make a D3 as we learned in class.
+
+### D3
+Here we decided to show the data on the grid and make each continent on different color so we can understand conflicts, we had to update each day of the simulation, and we had to read each of the values that we put on the grid like pixels, we used as base the projects of the class, the D3 projects, and put all that together we tried some different things to show the **Data visualization**.
+* First we tried to read the json and then show on the grid the matrix of data with some examples of matrices we found, but this didn't work because we could read the data but couldn't show it as a matrix.
+* Then on D3 we assign a color to each continent on the json document and its value.
+* Now we have our visual representation of the data in the json so we have to update each frame and each day of the simulation.
+* We have to make a way to update the document for each day of battle to show on D3 but we couldn't find a way on D3 so we are showing it as an animation on matplolib of python so we can understand each story and each ending that we simulated.
