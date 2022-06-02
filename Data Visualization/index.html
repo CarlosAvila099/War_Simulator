@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <title>WAR</title>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- jQuery UI CSS -->
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img id="logo" src="img/war.png"></a>      
+            </div>
+        </nav>
+        <div class="datos">
+            <div class="Story">Story:</div>
+            
+            <div class="col" style="float: right;">
+              <select id="story-select" class="form-control" style="background-color: #f4f6f8;border:#ffffff;">
+                  <option selected value="all">Select</option>
+                  <option value="story_1">Story 1</option>
+                  <option value="story_2">Story 2</option>
+                  <option value="story_3">Story 3</option>
+                  <option value="story_4">Story 4</option>
+                  <option value="story_5">Story 5</option>
+              </select>
+          </div>
+            <div class="Días">Day:</div>
+            <div ><img src="img/contintents.png" height= "400px"></div>  
+          </div>
+          
+          <div class="container">
+            <div class="row">
+                <div class="col" style="float: left;">
+                    <button id="play-button" class="btn btn-primary" style="background-color: #7bb1f8;border: #7bb1f8;border: inline;">Play</button>
+                    <button id="reset-button" class="btn btn-primary" style="background-color: #7bb1f8;border: #7bb1f8;border: inline;">Reset</button>                
+                
+            </div>
+        </div>
+
+        <!-- Bootstrap grid setup -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="chart-area"></div> 
+                    <div id="grid"></div>  
+                     
+                </div>
+            </div>
+        </div>
+       
+
+    <!-- External JS libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+
+    </body>
+</html>

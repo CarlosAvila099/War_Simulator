@@ -1,0 +1,143 @@
+#chart-area svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo {
+  height:50px;
+}
+
+.navbar-brand {
+  height: 60px;
+  padding: 5px 0px;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #777;
+  stroke-width: 3px;
+}
+  
+.hover-line {
+  stroke: #777;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
+#selections .col-md-4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.line {
+  fill: none;
+  stroke-width: 3px;
+  stroke: grey;
+}
+svg {
+	margin: 0px;
+}
+
+*{
+	margin: 0;
+	padding:  0;
+	font-family:'Verdana';
+	color: rgb(38, 38, 124);
+	
+}
+body{
+	margin: 2.2em ;
+	background-color:rgb(221, 221, 217); 
+	
+
+
+}
+.titulo{
+	width: -30px;
+	height: -30px;
+	font-weight: 400;
+	
+	font-size: 70px; 
+	margin: 0em 0 auto;
+	color: #2c2c2c;
+    background-color:transparent;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px transparent, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+     
+   
+
+
+
+.Story{
+	
+	
+	color: rgb(58, 66, 175);
+	
+}
+.Días{
+	
+	color: rgb(58, 66, 175);
+	
+}
+
+
+.lugar{
+
+	margin: 50px 1em 0 auto;
+	font-size: 10px;
+}
+
+.datos{
+	font-weight: 500;
+	
+	font-size: 20px; 
+	margin: 50px 10em 0 auto;
+	width: 100px;
+	height: 40px;
+	color: rgb(0, 0, 0);
+	
+	background-color:transparent ;
+	border-color: #000000;
+
+}
+
+
+span.red {
+  background: red;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
