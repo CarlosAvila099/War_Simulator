@@ -5,7 +5,7 @@ import numpy as np
 
 from pprint import pprint
 
-def reporter(story, cont):
+def reporter(story, cont, dataset):
     results = json.load(open('Stories/Story' + str(story) + '.json', 'r'))
 
     days = np.arange(1, 31)
@@ -21,30 +21,42 @@ def reporter(story, cont):
         territory = np.append(territory, results["Day " + str(day)][cont]["Territory"])
         military = np.append(military, results["Day " + str(day)][cont]["Military"])
 
-    pprint(population)
+    data = {
+        "Population": population,
+        "Income": income,
+        "Territory": territory,
+        "Military": military
+    }
 
-    plt.title("Story 1") 
+    plt.title("Story " + str(story) + ": " + cont) 
     plt.xlabel("Days") 
-    plt.ylabel("Population") 
-    plt.plot(days, population)
-    plt.show()
+    plt.ylabel(dataset) 
+    plt.plot(days, data[dataset])
+    plt.savefig('Graphs/Story ' + str(story) + '/' + cont + ' ' + dataset + '.png')
+    plt.clf()
 
-    plt.title("Story 1") 
-    plt.xlabel("Days") 
-    plt.ylabel("Income") 
-    plt.plot(days, income)
-    plt.show()
+continents = ["North America", "South America", "Europe", "Africa", "Asia", "South-East Asia", "Oceania"]
+parameters = ["Population", "Territory", "Military", "Income"]
 
-    plt.title("Story 1") 
-    plt.xlabel("Days") 
-    plt.ylabel("Territory") 
-    plt.plot(days, territory)
-    plt.show()
+#Story 1
+for cont in continents:
+    for par in parameters:
+        reporter(1, cont, par)
 
-    plt.title("Story 1") 
-    plt.xlabel("Days") 
-    plt.ylabel("Military") 
-    plt.plot(days, military)
-    plt.show()
+#Story 2
+for par in parameters:
+    reporter(2, "Africa", par)
+    
+#Story 3
+for par in parameters:
+    reporter(3, "North America", par)
+    reporter(3, "Asia", par)
 
-reporter(1, "South America")
+#Story 4
+for cont in continents:
+    for par in parameters:
+        reporter(4, cont, par)
+        
+#Story 5
+for par in parameters:
+    reporter(5, "Oceania", par)
