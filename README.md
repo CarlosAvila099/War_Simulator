@@ -15,7 +15,7 @@ If any library causes an error, run the command _pip install_.
 * To modify _Continent_ information, modify, add or remove _Continents_ from the array given to _World_ in **war_simulation.py**.
 
 ## Usage
-To run the simulator download all the files, change **configuration.py** as you desire and run **war_simulation.py**. Take into account that the simulator can be run in two different ways.
+To run the simulator download all the files in **_Simulator/_**, change **configuration.py** as you desire and run **war_simulation.py**. Take into account that the simulator can be run in two different ways.
 
 ### Simulation
 This part runs the simulation while representing conflicts and growth, it also contains a visualization.
