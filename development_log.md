@@ -15,6 +15,17 @@ The principal parts of this project were:
 * Data Visualization
 
 ## Data Analysis
+For this part of the project we searched for all the necessary data to initialize the war simulator:
+* Territory in km2
+* Population
+* Population growth (the increase of people per year)
+* Income per Capita
+* Literacy Rate
+* Military Spend by % of GDP
+* Government Rate
+
+We got all of this data from trustworthy sources in the internet. We calculated some of the variables, for example Income. It was
+calculated by dividing the population by the GDP. Overall the experience that was obtaning this data was interesting, as they are real ways to determine the amount of conflict each continent will be involved with.
 
 ## Simulator
 For this step of the project, we were given the task to create the simulator of the war using the information recovered from the previous step.
@@ -22,14 +33,7 @@ For this step of the project, we were given the task to create the simulator of 
 We started by analizing all the parts needed for the simulation to work, after this we started by making the classes needed and by setting specific constrainsts each class had. This helped us to avoid making big changes when encountering problems. Then we started to implement it in code, each part will be explained below.
 
 ### Initialize
-For this part we needed to initialize the _Continents_ with certain properties:
-* Territory
-* Population
-* Population Growth
-* Income per Capita
-* Literacy Rate
-* Military Spend by % of GDP
-* Government Rate
+For this part we needed to initialize the _Continents_ with the properties mentioned before.
 
 To solve this, we created a _Continent_ class with these properties, as well as some lists to keep track of the land, borders and neighbors each _Continent_ had.
 We also created a _Land_ class to keep track of each peace of _Land_ a _Continent_ had.
@@ -100,7 +104,7 @@ This step was to save the data made by the simulation and pass it to the **Data 
 In this step we use the information we gathered before and make a D3 as we learned in class.
 
 ### D3
-Here we decided to show the data on the grid and make each continent on different color so we can understand conflicts, we had to update each day of the simulation, and we had to read each of the values that we put on the grid like pixels, we used as base the projects of the class, the D3 projects, and put all that together we tried some different things to show the **Data visualization**.
+Here we decided to show the data on the grid and make each continent on different color so we can understand conflicts, we had to update each day of the simulation, and we had to read each of the values that we put on the grid like pixels, we used as base the projects of the class and put all that together. We tried some different things to show the **Data visualization**.
 * First we tried to read the json and then show on the grid the matrix of data with some examples of matrices we found, but this didn't work because we could read the data but couldn't show it as a matrix.
 * Then on D3 we assign a color to each continent on the json document and its value.
 * Now we have our visual representation of the data in the json so we have to update each frame and each day of the simulation.
