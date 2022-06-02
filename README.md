@@ -11,7 +11,15 @@ Python 3.9.7
 If any library causes an error, run the command _pip install_.
 
 ## Usage
-To run the simulator you only need to download all the files and run **war_simulation.py**, to save the information in a JSON file, close the window contianing the visualization.
+To run the simulator download all the files, change **configuration.py** as you desire and run **war_simulation.py**. Take into account that the simulator can be run in two different ways.
+
+### Simulation
+This part runs the simulation while representing conflicts and growth, it also contains a visualization.
+To run it in this form, the _RUN_ flag in **configuration.py** must be _True_.
+
+### Story Reporting
+This part runs the simulation without any way to keep track of wars or visualization, it is used to create data for stories.
+To run it in this form, the _RUN_ flag in **configuration.py** must be _False_.
 
 ### Modifying Data
 * To modify data you can modify **configuration.py** to modify behaviour of the conflicts, growth and duration of certain aspects of the simulator.
