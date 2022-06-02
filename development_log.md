@@ -87,7 +87,6 @@ With all that made, we added a function to visualize in a grid all the _Continen
 ### Story Creation
 To create information for stories, we created the _Story Continent_ class that allowed us to efficiently report the properties needed to create good stories.
 
-Explain reporter.py and how to create stories.
 In order to visualize the information resulting in each story, we needed to make a _Reporter_ function that could read the output files, and parse them into graphs based on what specific bit of information we wanted to see. There were some difficulties regarding switching the simulation's output from txt to json format that could be more easily parsed with code, and in iterating through the output once we wanted the reporter to read it, but the function works properly and outputs individual images with graphs each corresponding to a continent's individual parameters by using the average results of n simulations across 30 days
 
 ### Data Visualization
